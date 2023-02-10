@@ -80,8 +80,8 @@
 
       <bt:ShortStrings>
 
-        <bt:String id="HelloWorldGroup.Label" DefaultValue="Hello"/>
-        <bt:String id="HelloWorldButton.Label" DefaultValue="World"/>
+        <bt:String id="HelloWorldButton.Label" DefaultValue="Hello"/>
+        <bt:String id="HelloWorldGroup.Label" DefaultValue="World!"/>
 
       </bt:ShortStrings>
 
