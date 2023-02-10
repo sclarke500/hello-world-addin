@@ -5,5 +5,6 @@ Office.onReady((info) => {
 })
 
 function onLoad() {
+  console.log('on load');
   // do stuff
 }
