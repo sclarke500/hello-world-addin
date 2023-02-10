@@ -1,13 +1,11 @@
-Office.onReady((info) => {
-  // do stuff
-  Office.addin.showAsTaskpane();
-  console.log('tried to show taskpane');
 
+Office.onReady((info) => {
+
+  // set load on doc open
   Office.addin.setStartupBehavior(Office.StartupBehavior.load);
 
-})
+  // show taskpane - only relevant if being run on doc open
+  // -- else taskpane will alredy be visible
+  Office.addin.showAsTaskpane();
 
-function onLoad() {
-  console.log('on load');
-  // do stuff
-}
+})
