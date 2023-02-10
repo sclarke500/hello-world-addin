@@ -2,13 +2,13 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>a15789f6-7e3b-4f77-92ad-5a71b3027cb1</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>HelloWorld</ProviderName>
+  <ProviderName>Hello World</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Hello World"/>
   <Description DefaultValue="Hello World"/>
-  <IconUrl DefaultValue="https://sclarke500.github.io/hello-world-addin/img/dmc32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://sclarke500.github.io/hello-world-addin/img/dmc64.png"/>
-  <SupportUrl DefaultValue="https://sclarke500.github.io/hello-world-addin"/>
+  <IconUrl DefaultValue="https://sclarke500.github.io/hello-world-addin/img/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://sclarke500.github.io/hello-world-addin/img/icon-64.png"/>
+  <SupportUrl DefaultValue="https://www.divorcemate.com/support"/>
   <AppDomains>
     <AppDomain>https://localhost:4200</AppDomain>
   </AppDomains>
@@ -41,7 +41,7 @@
                 </Icon>
 
                 <Control xsi:type="Button" id="HelloWorldButton">
-                  <Label resid="helloWorldButton.Label"/>
+                  <Label resid="HelloWorldButton.Label"/>
                   <Supertip>
                     <Title resid="HelloWorldButton.Label"/>
                     <Description resid="HelloWorldButton.Tooltip"/>
@@ -65,16 +65,16 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://sclarke500.github.io/img/dmc16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://sclarke500.github.io/img/dmc32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://sclarke500.github.io/img/dmc80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://sclarke500.github.io/hello-world-addin/img/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://sclarke500.github.io/hello-world-addin/img/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://sclarke500.github.io/hello-world-addin/img/icon-80.png"/>
       </bt:Images>
 
       <bt:Urls>
 
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://sclarke500.github.io"/>
-        <bt:Url id="HelloWorldApp.Url" DefaultValue="https://sclarke500.github.io"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://sclarke500.github.io/hello-world-addin"/>
+        <bt:Url id="HelloWorldApp.Url" DefaultValue="https://sclarke500.github.io/hello-world-addin"/>
 
       </bt:Urls>
 
